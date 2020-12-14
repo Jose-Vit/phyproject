@@ -15,7 +15,7 @@
 # Setting constants and parameters (in SI units)
 
 
-P = 41    # number of x (and y) coordinates not at the edges of square box
+P = 41    # dimension of square grid including boundary points is (P+1)x(P+1)
 L = 1e-9  # size of square box
 
 omega = 1e15
@@ -28,7 +28,7 @@ kappa1 = 4
 kappa2 = 10
 
 h = 1e-18 # time step
-a = (L/P) # spatial step
+a = (L/P) # spatial step. 
 N = 300   # number of time steps
 
 x0 = -L/2
