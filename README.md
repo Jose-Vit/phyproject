@@ -1,5 +1,5 @@
 #
-# Solving 2D time-dependent Schrodinger Equation using Crank-Nicolson method for an initial gaussian wave packet subject to square barrier
+## Solving 2D time-dependent Schrodinger Equation using Crank-Nicolson method for an initial gaussian wave packet subject to square barrier
 
 ##### *Wave function is localized within a square box and vanishing at the boundary points*
 
