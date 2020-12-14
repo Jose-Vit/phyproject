@@ -257,7 +257,7 @@ X1,Y1= meshgrid(x1,y1)
 
 ##########################################################
 # Animation displaying evolution of wave function
-# adapted from outline code provided by stackflow post 
+# adapted from outline code provided on a stackflow post 
 # by 'ImportanceOfBeingErnes'
 #########################################################
 
