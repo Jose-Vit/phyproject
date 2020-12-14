@@ -26,7 +26,7 @@ import matplotlib.animation as animation
 # Setting constants and parameters (in SI units)
 
 
-P = 41    # number of x (and y) coordinates not at the edges of square box
+P = 41    # the dimension of square grid including boundary points is (P+1)x(P+1) 
 L = 1e-9  # size of square box
 
 omega = 1e15
@@ -268,7 +268,7 @@ X1,Y1= meshgrid(x1,y1)
 
 ##########################################################
 # Animation displaying evolution of wave function
-# adapted from outline code provided by stackflow post 
+# adapted from outline code provided on stackflow post 
 # by 'ImportanceOfBeingErnes'
 #########################################################
 
